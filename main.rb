@@ -1,5 +1,4 @@
 !# /usr/bin/env ruby
-
 require_relative 'bike'
 require_relative 'rental'
 
@@ -11,3 +10,4 @@ rental = Rental.new(bike)
 
 puts "Total Price: #{rental.price}, Total Weight: #{rental.weight}"
 
+#just spent time studying code, and working with team mates
